@@ -1,6 +1,5 @@
-# Welcome
-This project is a part of multiple similar projects that visualize the process of how algorithms sort data, this one would be showing how Insertion Sort would organize a set of data. 
-It was made with sdl2, a c++ library which let me open up a window and visualize the whole process to the screen.
+# Insertion Sort Visualizer
+A real-time visualization of the Insertion Sort algorithm built with C++ and SDL2. This project provides an interactive, step-by-step graphical demonstration of how insertion sort organizes data, making it perfect for students and developers learning about sorting algorithms.
 
 This project visualizes the QuickSort algorithm in real time, showing how data is recursively partitioned and sorted. Built in C++ with the SDL2 library, it provides a step-by-step graphical demonstration aimed at making sorting algorithms easier to understand for students and developers.
 
@@ -15,10 +14,16 @@ This project visualizes the QuickSort algorithm in real time, showing how data i
 
 
 ### Watch the inspiration video!
+Watch the algorithm in action! This visualization is inspired by educational sorting algorithm demonstrations.
+
 <a href="https://www.youtube.com/watch?v=kPRA0W1kECg" target="_blank">
   <img src="https://img.youtube.com/vi/kPRA0W1kECg/maxresdefault.jpg" width="400"/></a>
 
+### Technologies Used
 
-
+<ul>
+  <li><strong>C++</strong></li>
+  <li><strong>SDL2</strong></li>
+</ul>
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md)
