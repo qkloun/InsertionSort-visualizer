@@ -12,14 +12,31 @@ This project visualizes the Insertion Sort algorithm in real time, showing how d
 ⏱️ **Adjustable Speed** - Configurable animation delay for better visualization<br>
 🖥️ **Cross-Platform** - Works on Windows, macOS, and Linux<br>
 
-### InsertionSort Time Complexity
+## How it works
+
+### The Insertion Sort algorithm builds a sorted array one element at a time by:
+
+1. Starting with the second element in the array
+2. Comparing it with elements in the sorted portion (to its left)
+3. Shifting larger elements one position to the right
+4. Inserting the current element in its correct position
+5. Repeating until the entire array is sorted
+
+### The visualizer displays this process in real-time with color coding:
+- **Blue bars** - Unsorted elements
+- **Red bar** - Current element being inserted
+- **Yellow bar** - Element being compared
+- **Green bars** - Sorted portion of the array
+
+## InsertionSort Time Complexity
 - Best Case: **O(n)** - When the array is already sorted
 - Average Case: **O(n²)** - Random order
 - Worst Case: **O(n²)** - When the array is reverse sorted
 
-### Technologies Used
+## Technologies Used
 - **C++**
 - **SLD2**
+- **CMake** (optional, for build automation)
 
 
 ### Watch the inspiration video!
