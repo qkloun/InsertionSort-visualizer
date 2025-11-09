@@ -38,6 +38,15 @@ This project visualizes the Insertion Sort algorithm in real time, showing how d
 - **SLD2**
 - **CMake** (optional, for build automation)
 
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ### Watch the inspiration video!
 Watch the algorithm in action! This visualization is inspired by educational sorting algorithm demonstrations.
