@@ -12,15 +12,13 @@ This project visualizes the Insertion Sort algorithm in real time, showing how d
 ⏱️ **Adjustable Speed** - Configurable animation delay for better visualization<br>
 🖥️ **Cross-Platform** - Works on Windows, macOS, and Linux<br>
 
-## How it works
-
-### The Insertion Sort algorithm builds a sorted array one element at a time by:
-
-1. Starting with the second element in the array
-2. Comparing it with elements in the sorted portion (to its left)
-3. Shifting larger elements one position to the right
-4. Inserting the current element in its correct position
-5. Repeating until the entire array is sorted
+## Algorithm Breakdown
+The visualization demonstrates the key phases of Insertion Sort:
+1. 🎯 **Element Selection** - Pick the current element to insert into the sorted portion
+2. 🔍 **Backward Comparison** - Compare the selected element with sorted elements from right to left
+3. ➡️ **Element Shifting** - Shift larger elements one position to the right to make space (animated movement)
+4. 📌 **Insertion** - Place the element in its correct position within the sorted portion
+5. 🔁 **Iteration** - Repeat for each element until the entire array is sorted
 
 ### The visualizer displays this process in real-time with color coding:
 - **Blue bars** - Unsorted elements
